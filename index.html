@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>MOGAN KUMAR PC (Online Shopping App)</title>
+      <meta name="author" content="MOGAN KUMAR PC">
+      <meta name="description" content="Online Shopping App using Angular JS">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+   <body>
+      <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+      <section ng-app = "shoppingApp">
+         <dir-loading-mask ng-show = "turnLoadMask"></dir-loading-mask>
+         <section ng-controller = "ctrlApp">
+            <dir-header></dir-header>
+            <section id = "templates">
+               <ng-view></ng-view>
+            </section>
+            <dir-footer></dir-footer>
+         </section>
+      </section>
+      <script type="text/javascript" src = "js/loader_utilities/fileParser.js"></script>
+   </body>
+</html>

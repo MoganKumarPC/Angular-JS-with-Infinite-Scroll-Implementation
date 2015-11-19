@@ -1,0 +1,19 @@
+<div class="container-wrapper" >
+<!-- {{renderResultData | json}} -->
+<div class="container">
+   <div class="row" infinite-scroll='iscrollNextpage()' infinite-scroll-disabled='iscrollBusy' infinite-scroll-distance= 1>
+      <div class="col-md-4 product-wrapper" ng-repeat = "datum in renderResultData" id = {{datum.id}}>
+         <span class = "product-wrapper-id"></span>
+         <span class= "flag">{{datum.id}}</span>
+         <a ng-href = {{datum.url}} target="blank" data-product-id = {{datum.id}}>
+            <h2 class="product-title">{{datum.name}}</h2>
+            <p>
+               <img class = "product-img" ng-src = {{datum.img}} alt = {{datum.img}} />
+            </p>
+         </a>
+         <p class = "tag price fleft">Price: Rs. {{datum.price}}</p>
+         <p class = "tag score fright">Score: <span class="badge">{{(datum.score).toFixed(4)}}</span></p>
+      </div>
+   </div>
+</div>
+<div>

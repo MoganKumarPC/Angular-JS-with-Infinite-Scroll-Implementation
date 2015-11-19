@@ -1,0 +1,17 @@
+@font-face {
+	font-family: 'SEGOEUIL';
+	src: url('./../fonts/SEGOEUIL.eot');
+	src: local('SEGOEUIL'), url('./../fonts/SEGOEUIL.woff') format('woff'), url('./../fonts/SEGOEUIL.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'SEGOEUI';
+	src: url('./../fonts/SEGOEUI.woff');
+	src: local('SEGOEUI'), url('./../fonts/SEGOEUI.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'SEGOEUIR';
+	src: url('./../fonts/SEGOEUIR.woff');
+	src: local('SEGOEUIR'), url('./../fonts/SEGOEUIR.woff') format('woff');
+}

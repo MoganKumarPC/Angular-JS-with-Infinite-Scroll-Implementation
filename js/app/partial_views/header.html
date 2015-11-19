@@ -1,0 +1,37 @@
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+   <div class="container">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="#">Happy Online Shopping</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+         <form class="navbar-form navbar-right" role="form">
+            <div class="form-group right-vertical-splitter">
+               <label class= "white-font grouper">Filter By: </label>
+               <label  class="white-font chkBx-wrapper"><input type="checkbox" ng-model ="pf.filter.jeans"><span class="label-txt">Jeans</span></label>
+               <label  class="white-font chkBx-wrapper"><input type="checkbox" ng-model ="pf.filter.pants"><span class="label-txt">Pants</span></label>
+               <label  class="white-font chkBx-wrapper"><input type="checkbox" ng-model ="pf.filter.sarees"><span class="label-txt">Sarees</span></label>
+               <label  class="white-font chkBx-wrapper"><input type="checkbox" ng-model ="pf.filter.tops"><span class="label-txt">Tops</span></label>
+               <label  class="white-font chkBx-wrapper"><input type="checkbox" ng-model ="pf.filter.tshirts"><span class="label-txt">T-Shirts</span></label>
+            </div>
+            <div class="form-group ">
+               <label class="white-font grouper"> Sort By: </label>
+               <select class="form-control" ng-model = "pf.sortby">
+                  <option value="lp">Lowest Price</option>
+                  <option value="hp">Highest Price</option>
+                  <option value="ls">Lowest Score</option>
+                  <option value="hs">Highest Score</option>
+               </select>
+            </div>
+         </form>
+         
+      </div>
+      
+   </div>
+
+</nav>

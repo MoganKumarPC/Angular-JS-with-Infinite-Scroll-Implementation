@@ -1,0 +1,19 @@
+Some conventions or practices followed is documented below for better and quicker understanding or analysis or review:
+
+All Controllers Begin with "ctrl"
+
+All Services Begin with "ser"
+
+All Factories Begin with "factory"
+
+All Directives Begin with "dir"
+
+
+1) Application begins by loading "index.html"
+
+2) fileParser.js handles the file loading process
+
+3) app.js instantiates angular application 
+
+4) appConfig.js configures the application behaviour
+

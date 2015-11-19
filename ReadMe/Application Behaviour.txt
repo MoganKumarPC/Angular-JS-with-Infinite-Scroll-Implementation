@@ -1,0 +1,7 @@
+A Single Page Application which does an AJAX call to the following URL 
+
+https://test-prod-api.herokuapp.com/products and displays the products in a 3x3 grid.
+
+The URL returns 1000 products, but the page should have pagination so that only 9 products are displayed at a time. 
+
+Implementing pagination using infinite scroll.
